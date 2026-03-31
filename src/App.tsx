@@ -17,7 +17,6 @@ const App = () => (
         <Toaster />
         <Sonner />
         <BrowserRouter>
-          <div className="tailwind-active-indicator">Tailwind Active</div>
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/treatments" element={<Treatments />} />
